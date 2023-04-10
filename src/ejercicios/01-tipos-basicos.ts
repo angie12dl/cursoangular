@@ -1,12 +1,10 @@
 /*
 ===== Código de TypeScript =====
 */
+let nombre: string = 'Strider'
+let hp: number = 95;
+let estaVivo: boolean = true;
 
-let nombre: string = `Strider`;
-let hp: number = 88;
-let estaVivo: Boolean = true;
-hp =88;
+hp  = 88;
 
-
-nombre = 'angie';
-console.log( nombre, hp );
+console.log( nombre, hp);

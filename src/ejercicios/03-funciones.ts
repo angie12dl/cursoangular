@@ -29,7 +29,7 @@ interface PersonajeLOR {
 }
 const nuevoPersonaje: PersonajeLOR = {
     nombre: 'Strider',
-    pv: 50
+    pv: 50,
     mostrarHp(){
         console.log ('Puntos de vida:', this.pv);
     }
